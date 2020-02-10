@@ -16,7 +16,7 @@ func partition(arr []int, l int, h int) int {
 	for{
 		for {
 			i = i + 1
-			if i >= len(arr) - 1 || arr[i] >= pivot {
+			if i >= len(arr) || arr[i] >= pivot {
 				break
 			}
 		}
